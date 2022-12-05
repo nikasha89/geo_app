@@ -1,0 +1,10 @@
+# Dockerfile.prod
+
+FROM neerteam/geopandas
+
+RUN apt-get update && apt-get install -y netcat
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY . .

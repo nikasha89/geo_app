@@ -1,0 +1,12 @@
+asyncpg==0.27.0
+utils==1.0.1
+fastapi==0.88.0
+psycopg2-binary==2.9.5
+uvicorn==0.20.0
+geojson==2.5.0
+pandas==1.5.2
+geoalchemy2==0.12.5
+SQLAlchemy~=1.4.44
+pydantic~=1.10.2
+shapely==1.8.5.post1
+geoalchemy==0.7.2
